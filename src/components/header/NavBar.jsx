@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import "./NavBar.css";
+import React from "react"
+import "./NavBar.css"
 import Nav from "./nav"
 import items from "./navitems"
 const NavBar  = () =>{
-	const navItems = items.map((data)=>{
-		return <Nav text = {data.text} url = {data.url}></Nav>
+	const navItems = items.map((data, i)=>{
+		return <Nav text = {data.text} url = {data.url} key ={i}></Nav>
 	})
 	return(
 		<div className="main">
@@ -14,4 +14,4 @@ const NavBar  = () =>{
 		</div>	
 	)
 }
-export default NavBar;
+export default NavBar

@@ -1,9 +1,6 @@
-import react from 'react';
-
+import React from "react"
+import PropTypes from "prop-types"
 const Nav = (props)=>{
-
-
-	
 	return(
 		<div className = "nav">
 			<a herf = {props.url}>
@@ -11,7 +8,11 @@ const Nav = (props)=>{
 			</a>
 		</div>
 	)
+}
 
+Nav.propTypes = {
+	url: PropTypes.string,
+	text: PropTypes.string,
 }
 
 
