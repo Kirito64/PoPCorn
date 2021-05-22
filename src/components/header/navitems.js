@@ -24,7 +24,11 @@ const items = [
 		url: "",
 	},
 	{
-		text: "FAQ",
+		text: "FAQs",
+		url: "",
+	},
+	{
+		text: "Team",
 		url: "",
 	},
 	
