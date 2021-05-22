@@ -3,7 +3,7 @@ import LandingPage from "../components/body/landing";
 import NavBar from "../components/header/NavBar";
 import SectionHeading from "../components/body/sectionheading";
 import "./main.css"
-import SectionContainer from "../components/body/sectioncontent";
+import Team from "../components/body/team";
 const MainPage = ()=>{
 
 	return(
