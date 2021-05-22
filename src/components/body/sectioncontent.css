@@ -1,0 +1,27 @@
+.scontainer{
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 24px;
+
+}
+
+.sectioncontent{
+	padding: 10px;
+	margin: 10px;
+}
+
+.sectionheader{
+	font-weight: 600;
+	font-size: 30px;
+	line-height:37px;
+	/* padding: 10px; */
+	/* margin: 10px; */
+}
+
+.sectionimage{
+	width: 300px;
+	height: 300px;
+}
