@@ -1,0 +1,30 @@
+.cd-main{
+	display: flex;
+	flex-direction: column;
+	width: 350px;	
+	background: #F9BB18;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+/* .cd-main>*{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+.cd-date{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.cd-date>*{
+	font-size: 25px;
+	font-style: bold;
+	padding: 0px 30px;
+}

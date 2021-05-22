@@ -1,0 +1,17 @@
+.sheading-main {
+	position: relative;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	/* text-align: center; */
+	color: #FFFFFF;
+}
+
+.sheading-line{
+	position: absolute;
+	width: 197px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,0%);
+	border: 2px solid #F9BB18;
+}
