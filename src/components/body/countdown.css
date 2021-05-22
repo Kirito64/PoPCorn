@@ -21,6 +21,11 @@
 	padding: 10px;
 	justify-content: center;
 	align-items: center;
+	
+}
+.cd-date > p {
+	max-width:  15px;
+	margin: 0px;
 }
 
 .cd-date>*{

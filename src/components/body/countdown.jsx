@@ -18,7 +18,7 @@ const CountDown = (props)=>{
 
 
 	useEffect(()=>{
-		setInterval(() =>{
+		const interval = setInterval(() =>{
 			const {tillDate} = props
 			const then = moment(tillDate, "YYYYMMDD")
 			const now = moment()
@@ -29,7 +29,11 @@ const CountDown = (props)=>{
 			const seconds = countdown.format("ss")
 			setTime(days, hours, minutes, seconds)
 		}, 1000)
-	})
+		return ()=>{
+			clearInterval(interval)
+		}
+	}, [])
+
 
 	
 
@@ -39,10 +43,10 @@ const CountDown = (props)=>{
 				Countdown
 			</div>
 			<div className="cd-date">
-				<div className="days">{days}</div>
-				<div className="hours">{hours}</div>
-				<div className="minutes">{minutes}</div>
-				<div className="seconds">{seconds}</div>
+				<p className="days">{days}</p>
+				<p className="hours">{hours}</p>
+				<p className="minutes">{minutes}</p>
+				<p className="seconds">{seconds}</p>
 			</div>
 			
 		</div>
