@@ -18,9 +18,9 @@ const LandingPage = () => {
 				<SectionHeading title="Tracks" />
 				<SectionHeading title="Prizes" />
 				<SectionContainer heading="Test" content={content} svg = {mlai}/>
-				{/* {teams.map((team,idx)=>{
+				{teams.map((team,idx)=>{
 					return <TeamCard {...team} key={idx}/>
-				})} */}
+				})}
 			</div>
 		</div>
 	)}
