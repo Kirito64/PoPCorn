@@ -5,19 +5,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
-const TeamCard = ({src,name,designation,linkedin,github})=>{
+const JudgesCard = (props)=>{
 	return (
 		<div className="team-member-card">
 			<div className="team-member-picture-wrapper">
-				<img src={src} width="150" height="150"></img>
+				<img src={props.src} width="150" height="150"></img>
 			</div>
-			<p className="team-member-name green">{name}</p>
-			<p className="team-member-designation">{designation}</p>
+			<p className="team-member-name green">{props.name}</p>
+			<p className="team-member-designation">{props.designation}</p>
 			<div className="team-member-social links">
-				<a href={linkedin} target="_blank" rel="noreferrer">
+				<a href={props.linkedin} target="_blank" rel="noreferrer">
 					<FontAwesomeIcon icon={faLinkedin} className="follow"/>
 				</a>
-				<a href={github} target="_blank" rel="noreferrer">
+				<a href={props.github} target="_blank" rel="noreferrer">
 					<FontAwesomeIcon icon={faGithub} className="follow"/>
 				</a>
 			</div>
@@ -25,8 +25,7 @@ const TeamCard = ({src,name,designation,linkedin,github})=>{
 	)
 }
 
-TeamCard.propTypes = {
-
+JudgesCard.propTypes = {
 	src : PropTypes.string,
 	linkedin: PropTypes.string,
 	github: PropTypes.string,
@@ -35,6 +34,4 @@ TeamCard.propTypes = {
 }
 
 
-
-
-export default TeamCard
+export default JudgesCard
