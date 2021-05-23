@@ -5,19 +5,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
-const JudgesCard = (props)=>{
+const JudgesCard = ({src,name,designation,linkedin,github})=>{
 	return (
 		<div className="team-member-card">
 			<div className="team-member-picture-wrapper">
-				<img src={props.src} width="150" height="150"></img>
+				<img src={src} width="150" height="150"></img>
 			</div>
-			<p className="team-member-name green">{props.name}</p>
-			<p className="team-member-designation">{props.designation}</p>
+			<p className="team-member-name green">{name}</p>
+			<p className="team-member-designation">{designation}</p>
 			<div className="team-member-social links">
-				<a href={props.linkedin} target="_blank" rel="noreferrer">
+				<a href={linkedin} target="_blank" rel="noreferrer">
 					<FontAwesomeIcon icon={faLinkedin} className="follow"/>
 				</a>
-				<a href={props.github} target="_blank" rel="noreferrer">
+				<a href={github} target="_blank" rel="noreferrer">
 					<FontAwesomeIcon icon={faGithub} className="follow"/>
 				</a>
 			</div>

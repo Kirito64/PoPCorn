@@ -5,7 +5,10 @@
 	justify-content: flex-start;
 	align-items: center;
 	margin: 24px;
-
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #FFFFFF;
+	border-top: 2px solid #FFFFFF;
 }
 
 .sectioncontent{
@@ -17,7 +20,7 @@
 	font-weight: 600;
 	font-size: 30px;
 	line-height:37px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .sectionimage{

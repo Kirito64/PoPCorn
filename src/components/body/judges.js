@@ -1,7 +1,7 @@
 import image1 from "../../assets/team/Neha.jpg"
 import image2 from "../../assets/team/jatin.png"
 
-const teams =[
+const judges =[
 	{
 		src:image1,
 		name:"Neha Kalbande",
@@ -46,4 +46,4 @@ const teams =[
 	},
 ]
 
-export default teams
+export default judges

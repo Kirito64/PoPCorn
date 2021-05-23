@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import "./team.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
@@ -22,6 +23,8 @@ const TeamCard = ({src,name,designation,linkedin,github})=>{
 				</a>
 			</div>
 		</div>
+
+		
 	)
 }
 
