@@ -43,9 +43,9 @@ const CountDown = (props)=>{
 				Countdown
 			</div>
 			<div className="cd-date">
-				<p className="days">{days}</p>
-				<p className="hours">{hours}</p>
-				<p className="minutes">{minutes}</p>
+				<p className="days">{days}</p>:
+				<p className="hours">{hours}</p>:
+				<p className="minutes">{minutes}</p>:
 				<p className="seconds">{seconds}</p>
 			</div>
 			

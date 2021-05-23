@@ -33,3 +33,7 @@
 	font-style: bold;
 	padding: 0px 30px;
 }
+
+.hours .minutes .seconds .days {
+	background-color	: #FFFFFF;
+}

@@ -1,9 +1,16 @@
 .body{
 	display: flex;
 	justify-content:center;
-	margin: 10px;
+	/* max-height: 100vh; */
 }	
-
+.landing{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+}
 .content{
 	display:flex;
 	justify-content: center;
@@ -11,4 +18,28 @@
 	flex-direction: column;
 	flex-basis: 75%;
 	flex-wrap: wrap;
+}
+
+/* .content > *{
+	margin-top: 20px;
+	margin-bottom: 20px;
+} */
+
+.logo{
+	width: 45%;
+	/* margin-top: 10em; */
+}
+
+.buttonGroup{
+	display: flex;
+}
+
+.buttonGroup > *{
+	margin: 10px;
+}
+
+.landingheading{
+	color: #FFFFFF; 
+	font-weight: normal;
+	font-size: 23px;
 }

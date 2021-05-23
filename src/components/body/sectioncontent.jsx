@@ -1,6 +1,7 @@
 import "./sectioncontent.css"
 import PropTypes from "prop-types"
 import React from "react"
+
 const SectionContainer = (props)=>{
 
 	return(
