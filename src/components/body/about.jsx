@@ -1,7 +1,7 @@
 import React from "react"
 import "./about.css"
 import SectionHeading from "./sectionheading"
-import Logo from "../../assets/svg/logoPopcorn.svg"
+import Logo from "../../assets/images/abouttt-01.png"
 
 function About() {
 	return (

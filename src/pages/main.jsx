@@ -9,12 +9,15 @@ import judges from "../components//body/judges"
 import About from "../components//body/about"
 import SectionHeading from "../components/body/sectionheading"
 import Faqs from "../components/body/faqs"
+import Sponsors from "../components/body/sponsors"
+
 
 const MainPage = () => (
 	<>
 		<NavBar />
 		<LandingPage />
 		<About />
+		<Sponsors />
 		<div className="scontainer"> 
 			<SectionHeading title= "Judges" />
 			<div className="section-wrapper team-content">
