@@ -9,6 +9,7 @@ import React from "react"
 import TeamCard from "./teamCard"
 import teams from "./teams"
 import Logo from "../../assets/svg/logoPopcorn.svg"
+import Faq from "./faq"
 const LandingPage = () => {
 	const content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, dicta? Culpa error, recusandae odio modi nulla possimus optio autem! Dolor magni nam eaque necessitatibus odio? Animi autem facilis enim officiis."
 	return(
@@ -24,6 +25,8 @@ const LandingPage = () => {
 						<Button text="Social Link"/>	
 					</div>
 				</div>
+
+				<Faq question = "TEst?" answer = "Test"/>
 			</div>
 		</div>
 	)}

@@ -1,0 +1,22 @@
+.faq-wrapper{
+	display: flex;
+	background: #0490E4;
+	color: #FFFFFF;
+	width: 100%;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.faq{
+	padding: 10px;	
+	border: 1px solid #000000;
+}
+
+.faq-answer{
+	padding: 10px;
+	border: 1px solid #000000;
+}
+
+.hidden{
+	display: none;
+}
