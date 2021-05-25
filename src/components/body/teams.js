@@ -2,8 +2,6 @@ import image1 from "../../assets/team/Neha.jpg"
 import image2 from "../../assets/team/jatin.png"
 
 const teams =[
-<<<<<<< HEAD
-=======
 	{
 		src:image1,
 		name:"Neha Kalbande",
@@ -18,7 +16,6 @@ const teams =[
 		linkedin:"https://linkedin.in/jatinchhangani",
 		github:"https://github.com/Kirito64",
 	},
->>>>>>> neha
 	{
 		src:image1,
 		name:"Neha Kalbande",
