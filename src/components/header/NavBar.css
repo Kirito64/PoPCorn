@@ -1,5 +1,5 @@
 .main{
-	position:sticky;
+	position: sticky;
 	display: flex; 
 	flex-direction: row;
 	justify-content: center;
@@ -25,6 +25,8 @@
 	line-height: 29px;
 	color: #FFFFFF;
 }
+
+
 
 @media (min-width: 768px){
 	.blocker{

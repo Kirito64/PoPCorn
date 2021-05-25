@@ -5,12 +5,12 @@
     text-align: center;
 }
 
-.section-heading {
+.heading {
     text-align: center;
     display: initial;
     color: white;
-    font-size: 2.441em;
-    margin-bottom: 48px;
+    font-size: 2.4em;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -29,7 +29,7 @@
 }
 }
 
-.team-content .team-member-card {
+.team-member-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +64,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: white;
 }
 
 .team-content .team-member-card .team-member-designation {

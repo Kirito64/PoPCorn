@@ -2,11 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import "./team.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
-const TeamCard = ({src,name,designation,linkedin,github})=>{
+const JudgesCard = ({src,name,designation,linkedin,github})=>{
 	return (
 		<div className="team-member-card">
 			<div className="team-member-picture-wrapper">
@@ -23,13 +22,10 @@ const TeamCard = ({src,name,designation,linkedin,github})=>{
 				</a>
 			</div>
 		</div>
-
-		
 	)
 }
 
-TeamCard.propTypes = {
-
+JudgesCard.propTypes = {
 	src : PropTypes.string,
 	linkedin: PropTypes.string,
 	github: PropTypes.string,
@@ -38,6 +34,4 @@ TeamCard.propTypes = {
 }
 
 
-
-
-export default TeamCard
+export default JudgesCard
