@@ -8,7 +8,7 @@ import teams from "../components//body/teams"
 import judges from "../components//body/judges"
 import About from "../components//body/about"
 import SectionHeading from "../components/body/sectionheading"
-import Faqs from "../components/body/faqs"
+import Faq from "../components/body/faq"
 
 const MainPage = () => (
 	<>
@@ -23,7 +23,7 @@ const MainPage = () => (
 				})}
 			</div>
 		</div>
-		<Faqs />
+		<Faq />
 		<div className="scontainer"> 
 			<SectionHeading title= "Team" />
 			<div className="section-wrapper team-content">
