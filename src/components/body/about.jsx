@@ -5,7 +5,7 @@ import Logo from "../../assets/svg/logoPopcorn.svg"
 
 function About() {
 	return (
-		<div className="scontainer">
+		<div className="content">
 			<SectionHeading title= "About" />
 			<div className="about-content">
 				<div className="sidebar">
@@ -13,7 +13,7 @@ function About() {
 					<p style={{color:"white"}}>Popcorn is the very first initiative by the IIIT Nagpur with Women In Technology Community , bringing together 20+ other communities to host this hackathon, for Innovators to brainstorm and create a virtual but real prototype from June 18, 2021 - June 20, 2021. Let the Heat Pop the Code.</p>
 				</div>
 				<div className="imagee">
-					<img src ={Logo} className="abouty" />
+					<img src ={Logo} className="about" />
 				</div>
 			</div>
 		</div>
