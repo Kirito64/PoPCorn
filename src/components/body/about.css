@@ -1,22 +1,23 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    flex: 0.60;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .imagee {
     display: flex;
-    flex-direction: column;
-    flex: 0.40;
 }
 
 .about-content {
     display: flex;
     font-size: 1.25em;
+    align-items: center;
+    justify-content: center;
     /* text-align: center; */
-    margin-left: 10%;
 }
-.abouty{
+.about{
     width: 340px;
     height: 350px;
 }

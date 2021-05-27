@@ -1,5 +1,6 @@
 import image1 from "../../assets/team/Neha.jpg"
 import image2 from "../../assets/team/jatin.png"
+import image3 from "../../assets/team/ruchika.png"
 
 const teams =[
 	{
@@ -17,8 +18,8 @@ const teams =[
 		github:"https://github.com/Kirito64",
 	},
 	{
-		src:image1,
-		name:"Neha Kalbande",
+		src:image3,
+		name:"Ruchika Pandharikar",
 		designation:"Lead Organiser",
 		linkedin:"njb",
 		github:"njknh",

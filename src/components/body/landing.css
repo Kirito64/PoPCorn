@@ -1,7 +1,6 @@
 .body{
 	display: flex;
 	justify-content:center;
-	/* max-height: 100vh; */
 }	
 .landing{
 	display: flex;
@@ -42,4 +41,10 @@
 	color: #FFFFFF; 
 	font-weight: normal;
 	font-size: 23px;
+
+}
+
+.scontainer{
+	display: flex;
+	flex-wrap: wrap;
 }

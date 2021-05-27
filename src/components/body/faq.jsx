@@ -10,6 +10,7 @@ const Faq = (props)=>{
 	}
 	if(hidden){
 		return(
+			
 			<div className="faq-wrapper" onClick={toggleHidden}>
 				<div className="faq">
 					{props.question}

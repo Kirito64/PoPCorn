@@ -7,6 +7,7 @@ import "./landing.css"
 // import mlai from "../../assets/svg/mlai.svg"
 import React from "react"
 import Logo from "../../assets/svg/logoPopcorn.svg"
+import CountDown from "./countdown"
 const LandingPage = () => {
 	// const content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, dicta? Culpa error, recusandae odio modi nulla possimus optio autem! Dolor magni nam eaque necessitatibus odio? Animi autem facilis enim officiis."
 	return(
@@ -20,6 +21,9 @@ const LandingPage = () => {
 					<div className = "buttonGroup">
 						<Button text="Dashboard"/>
 						<Button text="Social Link"/>	
+					</div>
+					<div>
+						<CountDown tillDate = "20210625" />
 					</div>
 				</div>
 			</div>
