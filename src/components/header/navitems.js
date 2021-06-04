@@ -1,35 +1,35 @@
 const items = [
 	{
 		text: "About",
-		url: "",
+		url: "/about",
 	},
 	{
 		text: "Schedule",
-		url: "",
+		url: "/schedule",
 	},
 	{
 		text: "Tracks",
-		url: "",
+		url: "/tracks",
 	},
 	{
 		text: "Prize",
-		url: "",
+		url: "/",
 	},
 	{
 		text: "Sponsors",
-		url: "",
+		url: "/sponsors",
 	},
 	{
 		text: "Judges",
-		url: "",
+		url: "/",
 	},
 	{
 		text: "FAQs",
-		url: "",
+		url: "/faqs",
 	},
 	{
 		text: "Team",
-		url: "",
+		url: "/team",
 	},
 	
 ]

@@ -3,9 +3,9 @@ import LandingPage from "../components/body/landing"
 import NavBar from "../components/header/NavBar"
 import "./main.css"
 import TeamCard from "../components//body/teamCard"
-import JudgesCard from "../components//body/judgesCard"
+// import JudgesCard from "../components//body/judgesCard"
 import teams from "../components//body/teams"
-import judges from "../components//body/judges"
+// import judges from "../components//body/judges"
 import About from "../components//body/about"
 import SectionHeading from "../components/body/sectionheading"
 import Faq from "../components/body/faq"
@@ -54,23 +54,23 @@ const MainPage = () => {
 	
 	return(
 		<div className="superWrapper">
-			<NavBar />
+			<NavBar  />
 			<LandingPage />
-			<Schedule />
-			<About />
+			<Schedule  />
+			<About  />
 			<SectionContainer heading = {heading} content={content} svg= {svg}/>
 			<SectionContainer heading = {heading1} content={content1} svg= {svg1}/>
 			<SectionContainer heading = {heading2} content={content2} svg= {svg2}/>
 			<SectionContainer heading = {heading3} content={content3} svg= {svg3}/>
 			<SectionContainer heading = {heading4} content={content4} svg= {svg4}/>
-			<div className="content"> 
+			{/* <div className="content"> 
 				<SectionHeading title= "Judges" />
 				<div className="section-wrapper team-content">
 					{judges.map((judge,idx)=>{
 						return <JudgesCard {...judge} key={idx}/>
 					})}
 				</div>
-			</div>
+			</div> */}
 			<SectionHeading title= "FAQs" />
 			<Faq question = {question} answer = {answer}/>
 			<Faq question = {question1} answer = {answer1}/>

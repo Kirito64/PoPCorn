@@ -6,14 +6,17 @@ const SectionContainer = (props)=>{
 
 	return(
 		<div className="scontainer">
-			<div className="sectioncontent">
-				<div className="sectionheader">
-					{props.heading}
-				</div>
-				{props.content}
+			<div className="sectionheader">
+				{props.heading}
 			</div>
-			<div className="sectionimage">
-				<img src = {props.svg}></img>
+
+			<div className="sectioncontent">
+				<div className="scon">
+					{props.content}
+				</div>
+				<div className="sectionimage">
+					<img src = {props.svg}></img>
+				</div>
 			</div>
 		</div>
 	)
