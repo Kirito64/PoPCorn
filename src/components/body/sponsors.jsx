@@ -11,9 +11,11 @@ function Sponsors() {
 	return (
 		<div>
 			<SectionHeading title= "Sponsors" /> 
-			<div className="sponsro">
-				<a href="https://devfolio.co" >  <img src={Devfolio} className="ima" />
+			<div className="imag">
+				<a href="https://devfolio.co" >  <img src={Devfolio}  />
 				</a>
+			</div>
+			<div className="sponsro">
 				<a href="https://polygon.technology/" ><img src={Polygon} className="ima"  />
 				</a>
 				<a href="https://www.portis.io" >
