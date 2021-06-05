@@ -32,7 +32,7 @@ const teams =[
 		name:"Parth Jha",
 		designation:"Lead Organiser",
 		linkedin:"https://www.linkedin.com/in/parth-jha-6b501a195/",
-		github:"",
+		github:"behance.net/parth_03",
 	},
 	{
 		src:image5,

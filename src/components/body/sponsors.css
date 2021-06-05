@@ -1,0 +1,38 @@
+.sponsro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 5px;
+}
+
+.ima{
+    margin: 20px;
+    padding: 3px;
+}
+
+@media screen and(max-width:900px) {
+    .sponsro{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* flex-direction: row;
+        justify-content: flex-start; */
+    }
+    
+    .ima{
+        margin: 15px;
+        padding: 3px;
+    }
+}
+
+@media screen and(max-width:600px) {
+    .sponsro{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    
+    .ima{
+        margin: 10px;
+        padding: 3px;
+    }
+}

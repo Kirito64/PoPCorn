@@ -9,6 +9,7 @@ import teams from "../components//body/teams"
 import About from "../components//body/about"
 import SectionHeading from "../components/body/sectionheading"
 import Faq from "../components/body/faq"
+import Sponsors from "../components/body/sponsors"
 import Schedule from "../components/body/schedule"
 import mlai from "../assets/svg/mlai.svg"
 import webdev from "../assets/svg/webdev.svg"
@@ -71,6 +72,7 @@ const MainPage = () => {
 					})}
 				</div>
 			</div> */}
+			<Sponsors />
 			<SectionHeading title= "FAQs" />
 			<Faq question = {question} answer = {answer}/>
 			<Faq question = {question1} answer = {answer1}/>
