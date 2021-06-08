@@ -8,7 +8,7 @@
 	padding: 15px;
 	margin: 0px;
 	top: 0;
-	z-index: 1;
+	z-index: 100000;
 	/* top:0; */
 }
 
@@ -26,10 +26,29 @@
 	color: #FFFFFF;
 }
 
+.mobile-only{
+	display: none;
+	color: #FFFFFF;
+}
+
+.icon{
+	display: inline-block;
+}
 
 
-@media (min-width: 768px){
-	.blocker{
+@media (max-width: 1280px){
+	.main{
+		flex-direction: column;
+		justify-content: right;
+	}	
+	.nav{
 		display: none;
+		padding: 5px 0;
+		justify-content: right;
+	}
+
+	.mobile-only{
+		display:block;
+		width: 40px;
 	}
 }
