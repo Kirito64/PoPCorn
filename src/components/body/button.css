@@ -12,6 +12,7 @@
 
 @media(max-width:900px){
 	.button-main{
+		display: flex;
 		flex-direction:column;
 		justify-content:space-around;
 	}
