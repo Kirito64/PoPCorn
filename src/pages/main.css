@@ -2,11 +2,9 @@ body{
 	margin: 0;
 	font-family: Montserrat;
 	font-style: normal;
-	display: flex;
-	justify-content:center;
 	background: #1E1D3F;
 }
 
 .superWrapper{
-	padding: 0px 150px;
+	padding: 0 150px;
 }

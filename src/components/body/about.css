@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 24px;
     
 }
 
@@ -20,5 +21,12 @@
 .about{
     width: 340px;
     height: 350px;
+}
+
+
+@media (max-width: 950px){
+    .about-content{
+        flex-direction: column;
+    }
 }
 

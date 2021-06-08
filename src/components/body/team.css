@@ -23,10 +23,11 @@
 .section-wrapper {
     margin: 72px 0;
 }
+
 @media (max-width: 900px){
-.section-wrapper {
-    text-align: center;
-}
+    .section-wrapper {
+        text-align: center;
+    }
 }
 
 .team-member-card {
@@ -45,7 +46,7 @@
 .team-content .team-member-card .team-member-picture-wrapper {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 50%;  
     overflow: hidden;
 }
 
@@ -58,7 +59,7 @@
 }
 
 
-p {
+p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
