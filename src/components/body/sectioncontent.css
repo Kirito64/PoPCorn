@@ -8,15 +8,22 @@
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-bottom: 2px solid #FFFFFF;
-	border-top: 2px solid #FFFFFF;
+	/* border-top: 2px solid #FFFFFF; */
 }
 
 .sectioncontent{
+	/* margin: 10px; */
+	padding: 10px;
+	display: flex;
+}
 
-	margin: 25px;
+.scon{
+	display: flex;
+	
 }
 
 .sectionheader{
+	/* margin: 10px; */
 	font-weight: 600;
 	font-size: 30px;
 	line-height:37px;
@@ -25,4 +32,6 @@
 
 .sectionimage{
 	width: 300px;
+	display: flex;
+	
 }

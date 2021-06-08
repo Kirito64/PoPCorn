@@ -1,0 +1,18 @@
+.maggi{
+    width: 800px;
+    height: 700px;
+}
+
+@media(max-width:900px){
+    .maggi{
+    width: 500px;
+    height: 400px;
+    padding:10px;
+}
+
+}
+
+.about-contentt{
+    padding:10px;
+    margin:10px;
+}

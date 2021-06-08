@@ -35,13 +35,9 @@ const CountDown = (props)=>{
 	}, [])
 
 
-	
 
 	return(
 		<div className="cd-main">
-			<div>
-				Countdown
-			</div>
 			<div className="cd-date">
 				<p className="days">{days}</p>:
 				<p className="hours">{hours}</p>:
