@@ -57,7 +57,7 @@ const MainPage = () => {
 		<div className="superWrapper">
 			<NavBar  />
 			<LandingPage />
-			<Schedule  />
+			<Schedule />
 			<About  />
 			<SectionContainer heading = {heading} content={content} svg= {svg}/>
 			<SectionContainer heading = {heading1} content={content1} svg= {svg1}/>

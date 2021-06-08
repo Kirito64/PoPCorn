@@ -15,6 +15,7 @@ const NavBar  = () =>{
 	const navItems2= items.map((data, i)=>{
 		return <Nav text = {data.text} url = {data.url} key ={i} ></Nav>
 	})
+	
 
 	const toggleNav = ()=>{
 		setToggeled(!isToggled)

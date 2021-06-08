@@ -1,3 +1,5 @@
+// import About from "../body/about"
+
 const items = [
 	{
 		text: "About",
