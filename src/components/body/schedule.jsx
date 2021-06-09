@@ -1,5 +1,5 @@
 import React from "react"
-import schedules from "../../assets/svg/schedule1.png"
+import schedules from "../../assets/svg/scheudle.svg"
 import SectionHeading from "./sectionheading"
 import "./schedule.css"
 
