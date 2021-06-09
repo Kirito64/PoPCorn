@@ -28,62 +28,82 @@
 	color: #FFFFFF;
 }
 
-.mobile-only{
-	display: none;
-	color: #FFFFFF;
-}
-
+/* 
 .mobile-menu{
 	display: none;
 
-}
+} */
 
 .icon{
 	display: inline-block;
 	position: absolute;
 	right :-10px;
+	color: #FFFFFF;
+	top: 10px;
 }
 
 .not-hidden{
 	display: block;
 }
 
+.mobile-menu{
+	right: -100%;
+	width: 100%;
+	/* height: 10vh; */
+	/* color: #fff; */
+	z-index: 99998;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: translate(-100%, 60%);
+	
+}
+
+.desktop-view{
+	display: none;
+}
 
 
-@media (max-width: 1280px){
+@media (min-width: 900px){
 	.main{
-		flex-direction: column;
+		flex-direction: row;
+		/* display: none; */
 		position: relative;
 	}	
 	
 	.nav{
-		display: none;
+		/* display: none; */
 		padding: 5px 0px;
 		justify-content: right;
 	}
 
 	.mobile-only{
 		/* padding: 24px 25px; */
-		transform: translateX(-100%);
-		display:flex;
+		display:none;
 		position: fixed;
 		flex-direction: row;
 		width: 40px;
 		right: 0%;
+		color: #ffffff;
 	}
-	
-	.mobile-menu{
+
+		
+	.desktop-view{
 		right: -100%;
 		width: 100%;
 		height: 10vh;
 		/* color: #fff; */
 		z-index: 99998;
+		padding: 5px 0px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		/* transition: transform .3s ease-in*/
 		
 	}
+	
+
 	
 }

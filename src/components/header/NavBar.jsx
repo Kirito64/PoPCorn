@@ -12,38 +12,24 @@ const NavBar  = () =>{
 	})
 
 
-	const navItems2= items.map((data, i)=>{
-		return <Nav text = {data.text} url = {data.url} key ={i} ></Nav>
-	})
+	// const navItems2= items.map((data, i)=>{
+	// 	return <Nav text = {data.text} url = {data.url} key ={i} ></Nav>
+	// })
 	
 
 	const toggleNav = ()=>{
 		setToggeled(!isToggled)
 	}
-	if(!isToggled){
-		return(
-			<div className="main">
-				<div className="mobile-only" onClick = {toggleNav}>
-					<FaBars className="icon"/>
-				</div>
+	return(
+		<div className="main">
+			<div className="mobile-only" onClick = {toggleNav}>
+				<FaBars className="icon"/>
+			</div>
+			<div className={isToggled ? "mobile-menu" : "desktop-view"}>
 				{navItems}
-			</div>	
-		)
-	}
-	else{
-		return(
-			<div className="main">
-				<div className="mobile-only" onClick = {toggleNav}>
-					<FaBars className="icon"/>
-				</div>
-				{navItems}
-
-				<div className="mobile-menu">
-					{navItems2}
-				</div>
-			</div>	
-		)
-	}
-	
+			</div>
+		</div>	
+	)
 }
+	
 export default NavBar
