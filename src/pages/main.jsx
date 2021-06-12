@@ -15,7 +15,8 @@ import mlai from "../assets/svg/mlai.svg"
 import webdev from "../assets/svg/webdev.svg"
 import appdev from "../assets/svg/appdev.svg"
 import arvr from "../assets/svg/arvr.svg"
-import openinovation from "../assets/svg/open-inovation.svg"
+import openinovation from "../assets/svg/idea.svg"
+import blockchain from "../assets/svg/block.svg"
 import SectionContainer from "../components/body/sectioncontent"
 
 const MainPage = () => {
@@ -35,6 +36,9 @@ const MainPage = () => {
 	const heading4 = "Open Innovation"
 	const content4 =" A track on the special demands of the participants, covering all the out of the box ideas that do not fit in any of the above mentioned tracks, for the wild ideas brewing in the sculpted minds. Get rabid with all the Technology ideas in the tertiary sectors!"
 	const svg4 = openinovation
+	const heading5 = "Blockchain"
+	const content5 ="Blockchain is the most popular place to securely buy, store, and trade Bitcoin, Ethereum, Neo and other top cryptocurrencies."
+	const svg5 = blockchain
 
 	const question = "Who can participate? Is any experience required for it?"
 	const answer = "Whether you are a novice, an intense coder, or any tech enthusiast, Popcorn is for you! You just need curiosity and a problem solver’s thinking. The rest elements you will get to know from the mentors."
@@ -57,13 +61,14 @@ const MainPage = () => {
 		<div className="superWrapper">
 			<NavBar  />
 			<LandingPage />
-			<Schedule  />
+			<Schedule />
 			<About  />
 			<SectionContainer heading = {heading} content={content} svg= {svg}/>
 			<SectionContainer heading = {heading1} content={content1} svg= {svg1}/>
 			<SectionContainer heading = {heading2} content={content2} svg= {svg2}/>
 			<SectionContainer heading = {heading3} content={content3} svg= {svg3}/>
 			<SectionContainer heading = {heading4} content={content4} svg= {svg4}/>
+			<SectionContainer heading = {heading5} content={content5} svg= {svg5}/>
 			{/* <div className="content"> 
 				<SectionHeading title= "Judges" />
 				<div className="section-wrapper team-content">

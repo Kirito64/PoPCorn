@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 const Nav = (props)=>{
 	return(
 		<div className = "nav">
-			<a herf = {props.url}>
+			<a href = {props.url}>
 				{props.text}
 			</a>
 		</div>

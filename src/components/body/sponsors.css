@@ -23,24 +23,26 @@
     padding: 3px;
 }
 
-@media screen and(max-width:900px) {
+@media(max-width:900px) {
     .sponsro{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: grid ;
+        grid-template-columns: 1fr 1fr ;
+        align-items:center;
         /* flex-direction: row;
         justify-content: flex-start; */
     }
     
     .ima{
-        margin: 15px;
+        margin: 5px;
         padding: 3px;
     }
 }
 
-@media screen and(max-width:600px) {
+@media (max-width:600px) {
     .sponsro{
         display: grid;
         grid-template-columns: 1fr;
+        align-items:center;
 
     }
     

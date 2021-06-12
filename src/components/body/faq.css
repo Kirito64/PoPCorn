@@ -21,6 +21,16 @@
 	/* anima */
 }
 
+
+@media(max-width:900px){
+	
+.faq{
+	padding: 5px;	
+	border: 1px  solid #000000;
+}
+
+}
+
 .hidden{
 	display: none; 
 }

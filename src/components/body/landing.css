@@ -1,6 +1,9 @@
-.body{
+.bodyy{
 	display: flex;
 	justify-content:center;
+	position: relative;
+    z-index: 1;
+	/* align-items:center; */
 }	
 .landing{
 	display: flex;
@@ -9,14 +12,16 @@
 	flex-direction: column;
 	width: 100%;
 	min-height: 100vh;
+	text-align:center;
 }
 .content{
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	/* flex-direction: column; */
 	flex-basis: 75%;
 	flex-wrap: wrap;
+
 }
 
 /* .content > *{

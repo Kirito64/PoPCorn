@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 24px;
     
 }
 
@@ -12,6 +11,7 @@
 }
 
 .about-content {
+    flex-direction: row;
     display: flex;
     font-size: 1.25em;
     align-items: center;
@@ -27,6 +27,5 @@
 @media (max-width: 950px){
     .about-content{
         flex-direction: column;
-    }
+}   
 }
-
