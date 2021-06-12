@@ -14,8 +14,8 @@ const SectionContainer = (props)=>{
 				<div className="scon">
 					{props.content}
 				</div>
-				<div className="sectionimage">
-					<img src = {props.svg}></img>
+				<div>
+					<img src = {props.svg} className = "sectionimage"></img>
 				</div>
 			</div>
 		</div>
