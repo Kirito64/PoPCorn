@@ -53,3 +53,11 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+/* 
+@media(max-width:500px){
+	
+.buttonGroup{
+	flex-direction: column;
+}
+} */

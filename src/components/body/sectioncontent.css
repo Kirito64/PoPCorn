@@ -38,3 +38,8 @@
 }
 
 
+@media(max-width:900px){
+	.sectioncontent{
+		flex-direction: column;
+	}
+}

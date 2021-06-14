@@ -26,10 +26,11 @@
 @media(max-width:900px) {
     .sponsro{
         display: grid ;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr  ;
         align-items:center;
         /* flex-direction: row;
         justify-content: flex-start; */
+        margin: 0px 20px;
     }
     
     .ima{
@@ -43,7 +44,7 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items:center;
-
+        margin: 0px 30px;
     }
     
     .ima{
